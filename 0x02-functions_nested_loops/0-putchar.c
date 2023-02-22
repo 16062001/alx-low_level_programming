@@ -1,5 +1,5 @@
 
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-README.md char *sh = "_putchar";
+char *sh = "_putchar";
 
-README.md while (*sh)
-README.md {
-README.md README.md _putchar(*sh);
-README.md README.md sh++;
-README.md }
-README.md _putchar(n);
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar(n);
 
-README.md return (0);
+return (0);
 }
