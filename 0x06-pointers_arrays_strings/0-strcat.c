@@ -10,19 +10,19 @@
   */
 char *_strcat(char *dest, char *src)
 {
-README.md int dlen = 0, i;
+int dlen = 0, i;
 
-README.md while (dest[dlen])
-README.md {
-README.md README.md dlen++;
-README.md }
+while (dest[dlen])
+{
+dlen++;
+}
 
-README.md for (i = 0; src[i] != 0; i++)
-README.md {
-README.md README.md dest[dlen] = src[i];
-README.md README.md dlen++;
-README.md }
+for (i = 0; src[i] != 0; i++)
+{
+dest[dlen] = src[i];
+dlen++;
+}
 
-README.md dest[dlen] = 0;
-README.md return (dest);
+dest[dlen] = 0;
+return (dest);
 }
